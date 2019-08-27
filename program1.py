@@ -13,7 +13,7 @@ matrix = matlist.blosum62
 
 method = sys.argv[2]
 
-gap_open = -12 
+gap_open = -12
 gap_extend = -3
 
 original_seq_fasta = ''
@@ -132,16 +132,16 @@ def get_weighted_bases(opt_seq_df, aln_score_df, tracking_dict, seq_dict):
         optimized_seq_fasta += '>' + originName + '\n'
         optimized_seq_fasta += opt_nuc_seq + '\n'
     return original_seq_fasta, optimized_seq_fasta
-    
+
 seqDict = open_fasta(sys.argv[1])
 
 for ind,i in enumerate(seqDict):
     if ind == 0:
         dorn1_name = i
     else:
-        print dorn1_name, i
+        print (dorn1_name, i)
         codon_optimize(seqDict[dorn1_name], seqDict[i])
-        
+
 
 trackingDict = create_tracking_dict(seqDict)
 
@@ -164,4 +164,4 @@ file.close
 
 
 
-            
+

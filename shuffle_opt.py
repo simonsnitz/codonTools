@@ -12,7 +12,7 @@ def codon_optimize(rawinseq1, rawinseq2):
     rawinseq1nt = rawinseq1.upper().rstrip()
     for char in rawinseq1nt:
         if char != 'A' and char != 'T' and char != 'C' and char != 'G':
-            print '\n'+'Error: input contains non-DNA bases(A,T,C,G)'+'\n'+'Continue running? Y or N'
+            print('\n'+'Error: input contains non-DNA bases(A,T,C,G)'+'\n'+'Continue running? Y or N')
             choice = raw_input()
             if choice != 'Y' and choice != 'y':
                 quit()
@@ -23,7 +23,7 @@ def codon_optimize(rawinseq1, rawinseq2):
     rawinseq2nt = rawinseq2.upper().rstrip()
     for char in rawinseq2nt:
         if char != 'A' and char != 'T' and char != 'C' and char != 'G':
-            print '\n'+'Error: input contains non-DNA bases(A,T,C,G)'+'\n'+'Continue running? Y or N'
+            print ('\n'+'Error: input contains non-DNA bases(A,T,C,G)'+'\n'+'Continue running? Y or N')
             choice = raw_input()
             if choice != 'Y' and choice != 'y':
                 quit()
@@ -55,7 +55,7 @@ def codon_optimize(rawinseq1, rawinseq2):
     mismatchaacount = 0
     for i,j in comp_1a_to_2a:
         if i!=j and i!='-' and j!='-':
-           mismatchaacount +=1 
+           mismatchaacount +=1
  #   print 'Number of Amino Acid Mismatches: {0}\n'.format(mismatchaacount)
 
 
@@ -67,7 +67,7 @@ def codon_optimize(rawinseq1, rawinseq2):
     for i in range(len(dnagapseq1)):
         dnagapseq1[i] = (gapsinseq1aa[i]*3)+count1
         count1-=2
-        
+
 #    print dnagapseq1 #this is the locations of the gaps in the nt sequence
 
     dnagapseq2 = [0]*len(gapsinseq2aa)
@@ -79,9 +79,9 @@ def codon_optimize(rawinseq1, rawinseq2):
     ##print dnagapseq2 #see above comment
 
 
-    rawseq1ntlist=list(rawinseq1nt) #this turns the raw input string nt into a list. 
+    rawseq1ntlist=list(rawinseq1nt) #this turns the raw input string nt into a list.
     for x in dnagapseq1:
-        rawseq1ntlist.insert(x,'---') 
+        rawseq1ntlist.insert(x,'---')
         ''.join(rawseq1ntlist)
     ntgapseq1=''.join(rawseq1ntlist)
     ##print ntgapseq1 #this is the nt string with gaps for each nt of the gapped amino acid (so, one AA gap is expressed as "---")
@@ -89,7 +89,7 @@ def codon_optimize(rawinseq1, rawinseq2):
 
     rawseq2ntlist=list(rawinseq2nt)
     for x in dnagapseq2:
-        rawseq2ntlist.insert(x, '---') 
+        rawseq2ntlist.insert(x, '---')
         ''.join(rawseq2ntlist)
     ntgapseq2=''.join(rawseq2ntlist)
     ##print ntgapseq2
@@ -107,7 +107,7 @@ def codon_optimize(rawinseq1, rawinseq2):
     y = 0
     mismatch_AA = [-1] #adds 5' to first gap
     already_ident = 0
-    silentmutcount = 0 
+    silentmutcount = 0
     ##misandgaps = []
 
     ##this while loop copies codons from seq1 to newseq for all matches, from seq2 for all gaps, and keeps track of locations of mismatches
@@ -117,24 +117,24 @@ def codon_optimize(rawinseq1, rawinseq2):
             ntgapseq2withchanges[(y*3):((y*3)+3)] = ntgapseq1[(y*3):((y*3)+3)]
             if ''.join(map(str, newseq2[(y*3):((y*3)+3)])) != ntgapseq2[(y*3):((y*3)+3)]: #this loop counts what codons actually change
                 silentmutcount += 1
-            else: already_ident +=1   
-        elif aln_inseq2aa[y] == '-': #if there's a gap in 2, copy nt of 2 
+            else: already_ident +=1
+        elif aln_inseq2aa[y] == '-': #if there's a gap in 2, copy nt of 2
             newseq2[(y*3):((y*3)+3)] = ntgapseq2[(y*3):((y*3)+3)]
             ntgapseq2withchanges[(y*3):((y*3)+3)] = ntgapseq2[(y*3):((y*3)+3)]
     ##        misandgaps.append(y)
-            
+
         elif aln_inseq1aa[y] == '-': #if there's a gap in 1, copy nt of 2 (redundant, but useful for tracking)
             newseq2[(y*3):((y*3)+3)] = ntgapseq2[(y*3):((y*3)+3)]
             ntgapseq2withchanges[(y*3):((y*3)+3)] = ntgapseq2[(y*3):((y*3)+3)]
     ##        misandgaps.append(y)
-            
+
         else:
             mismatch_AA.append(y) #makes an int list of the positions of the mismatches in the AA sequences
             ntgapseq2withchanges[(y*3):((y*3)+3)] = ntgapseq2[(y*3):((y*3)+3)]
     ##        misandgaps.append(y)
-            
+
         y += 1
-        
+
     newseq2[(y*3):((y*3)+3)] = ntgapseq2[(y*3):((y*3)+3)] #this adds the stop codon at the end from sequence 2
 
     mismatch_AA.append(len(aln_inseq2aa)-1) #Adds in 3' end for distance calc
@@ -173,8 +173,8 @@ def codon_optimize(rawinseq1, rawinseq2):
         elif triseq1[2] == triseq2[2]:
             misdiffnogap[n+1] += 1
     ##        print '1R'
-            
-    num_zeros = misdiffnogap.count(0) #number of amino acids next to each other        
+
+    num_zeros = misdiffnogap.count(0) #number of amino acids next to each other
     ##print len(misdiffnogap)
     ##print len(mis_loc)
 
@@ -184,8 +184,8 @@ def codon_optimize(rawinseq1, rawinseq2):
     #both sides
 
     #NOTE: at this time, we did not write any code to try and change the middle of the codon for S, the only
-    #codon that could change in the middle sometimes. This occurance will be extremely rare.  
-            
+    #codon that could change in the middle sometimes. This occurance will be extremely rare.
+
     ##Amino Acid Dictionaries
     ##NOTE: Single codon Amino Acids are M,W
     Acid_Dic = dict(
@@ -223,29 +223,29 @@ def codon_optimize(rawinseq1, rawinseq2):
         l_dist = misdiffnogap[n] #left and right distances, respectively
         r_dist = misdiffnogap[n+1]
         AA_to_opt = aln_inseq2aa[loc] #The amino acid in aa sequence2 we need to optimize
-        
+
         if AA_to_opt == 'M' or AA_to_opt == 'W': #replaces M's and W's, they only have one codon (checked before and after to verify)
             newseq2[(loc*3):((loc*3)+3)] = ntgapseq2[(loc*3):((loc*3)+3)]
             tot_aa_copy += 1
             tot_already_opt += 1
-            
+
         elif AA_to_opt in R_change: #finds amino acids that can only change on the right
             for s in Acid_Dic[AA_to_opt]:
                 poss = Acid_Dic[AA_to_opt][s] #goes through each possible codon in the dictionary for a given AA to optimize
     ##            print "{0},{1}".format(AA_to_opt,s) check to see what aa it's optimizing and how many tries it makes
                 if poss[2] == ntgapseq1[((loc*3)+2)]: #looks to see if right end matches the appropriate reference sequence nucleotide
-                    newseq2[(loc*3):((loc*3)+3)] = poss #if it does, it switches it            
+                    newseq2[(loc*3):((loc*3)+3)] = poss #if it does, it switches it
                     if ntgapseq2[(loc*3):((loc*3)+3)] != ''.join(map(str, newseq2[(loc*3):((loc*3)+3)])): #checks to see if the changed amino acid is different than original
                         AA_opt_count_R += 1 #if it does, it adds it to the count of amino acids optimized on the right
                         misdiffnogap[n+1] += 1
                         tot_aa_change += 1
     ##                    print ntgapseq2[(loc*3):((loc*3)+3)] #this would print the old codon and new codon
     ##                    print ''.join(map(str, newseq2[(loc*3):((loc*3)+3)]))
-                    else: 
+                    else:
                         tot_aa_copy += 1
                         tot_already_opt += 1
 
-                        
+
         elif AA_to_opt in B_change: #finally, the amino acids that can change on both sides
             for a in Acid_Dic[AA_to_opt]:
                 if ''.join(map(str, newseq2[(loc*3):((loc*3)+3)])) == '000': #This stops trying if the codon has already be changed
@@ -253,26 +253,26 @@ def codon_optimize(rawinseq1, rawinseq2):
     ##                print "{0},{1}".format(AA_to_opt,a) check to see what aa it's optimizing and how many tries it makes
                     if poss[2] == ntgapseq1[((loc*3)+2)] and poss[0] == ntgapseq1[((loc*3))]: #can both ends have homology?
                         newseq2[(loc*3):((loc*3)+3)] = poss
-                        
+
                         if ntgapseq2[(loc*3):((loc*3)+3)] != ''.join(map(str, newseq2[(loc*3):((loc*3)+3)])): #is the codon new?
                             tot_aa_change += 1
                             if ntgapseq2[(loc*3)] != ''.join(map(str, newseq2[(loc*3)])): #does it change left side?
                                 AA_opt_count_L += 1
                                 if ntgapseq2[(loc*3)+1] != ''.join(map(str, newseq2[(loc*3)+1])): #does it change left and middle?
                                     misdiffnogap[n] += 2
-                                else:   
+                                else:
                                     misdiffnogap[n] += 1
-                                    
+
                             if ntgapseq2[(loc*3)+2] != ''.join(map(str, newseq2[(loc*3)+2])): #does it change right side?
                                 AA_opt_count_R += 1
                                 if ntgapseq2[(loc*3)+1] != ''.join(map(str, newseq2[(loc*3)+1])): #does it change right and middle?
                                     misdiffnogap[n+1] += 2
-                                else:   
+                                else:
                                     misdiffnogap[n+1] += 1
                         else:
-                            tot_aa_copy += 1 
+                            tot_aa_copy += 1
                             tot_already_opt += 1
-                            
+
                     else:#these go through in order of most optimal side to change it, then finally at the end says fuck it if neither is optimal and trys to change left then right
                         if abs(l_dist-6) < abs(r_dist-6) and l_dist > 5 and l_dist < 10: # if l_dist is optimal, try to optimize this first
                             if poss[0] == ntgapseq1[((loc*3))]: #left end be fixed?
@@ -301,7 +301,7 @@ def codon_optimize(rawinseq1, rawinseq2):
                                 else:
                                    tot_already_opt += 1
                                    tot_aa_copy += 1
-                        elif abs(l_dist-6) >= abs(r_dist-6) and r_dist <= 6: 
+                        elif abs(l_dist-6) >= abs(r_dist-6) and r_dist <= 6:
                             if poss[2] == ntgapseq1[((loc*3)+2)]: #right end be changed and fixed?
                                 newseq2[(loc*3):((loc*3)+3)] = poss
                                 if poss[2] != ntgapseq2[((loc*3)+2)]:
@@ -327,14 +327,14 @@ def codon_optimize(rawinseq1, rawinseq2):
                                 else:
                                    tot_already_opt += 1
                                    tot_aa_copy += 1
-                                   
+
         if ''.join(map(str, newseq2[(loc*3):((loc*3)+3)])) == '000':  #This changes the amino acids if they have not been optimized
             newseq2[(loc*3):((loc*3)+3)] = ntgapseq2[(loc*3):((loc*3)+3)]
             tot_aa_copy += 1
 
 
 
-                    
+
     ##print misdiffnogap
 
     newstring2 = ''.join(map(str, newseq2)) #right now, we print ____ for gaps in seq2 and 000 for mismatches (gaps in seq 1 are just copied codons from seq2)
@@ -352,27 +352,27 @@ def codon_optimize(rawinseq1, rawinseq2):
     for i,j in comp_org_to_opt:
         if i!=j:
             nuc_imp += 1
-            
+
     comp_ref_to_opt =zip(ntgapseq1,newstring2) #this compares homology between ref seq and new sequence
     for i,j in comp_ref_to_opt:
         if i==j and i!='-':
             total_homo += 1
         if i=='-' or j=='-':
             tot_gaps += 1
-            
+
 
     z = len(newstring2) - tot_gaps
     perc_improvement = 100.0*(nuc_imp/z)
 
     perc_homology = 100.0*(total_homo/z)
-    print "\n\nResults:\n{0} codons of matched amino acids in the protein alignment were changed to match reference DNA codons".format(silentmutcount)
-    print "\t {0} matched amino acids already had identical codons\n".format(already_ident)
-    print"{0} codons of mismatched amino acids were changed in total, while {1} were not changed.".format(tot_aa_change,tot_aa_copy)
-    print"\tof those not changed, {0} were already optimal".format(tot_already_opt)
-    print "\t{0} mismatched amino acids in sequence 2 were optimized to add homology to the 3' end".format(AA_opt_count_R)
-    print "\t{0} mismatched amino acids in sequence 2 were optimized to add homology to the 5' end".format(AA_opt_count_L)
-    print "{0} total nucleotides were changed to increase homology between sequences for a total improvement of {1}%, or a total of {2}% nucleotide identities between aligned amino acids".format(nuc_imp,perc_improvement,perc_homology)
-    print newstring3
+    print ("\n\nResults:\n{0} codons of matched amino acids in the protein alignment were changed to match reference DNA codons".format(silentmutcount))
+    print ("\t {0} matched amino acids already had identical codons\n".format(already_ident))
+    print ("{0} codons of mismatched amino acids were changed in total, while {1} were not changed.".format(tot_aa_change,tot_aa_copy))
+    print ("\tof those not changed, {0} were already optimal".format(tot_already_opt))
+    print ("\t{0} mismatched amino acids in sequence 2 were optimized to add homology to the 3' end".format(AA_opt_count_R))
+    print ("\t{0} mismatched amino acids in sequence 2 were optimized to add homology to the 5' end".format(AA_opt_count_L))
+    print ("{0} total nucleotides were changed to increase homology between sequences for a total improvement of {1}%, or a total of {2}% nucleotide identities between aligned amino acids".format(nuc_imp,perc_improvement,perc_homology))
+    print (newstring3)
     return newstring3
 
 def findOccurences(s, ch):
