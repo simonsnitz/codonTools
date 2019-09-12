@@ -11,6 +11,7 @@ from collections import OrderedDict
 from Bio.SubsMat import MatrixInfo as matlist
 matrix = matlist.blosum62
 
+
 method = sys.argv[2]
 
 gap_open = -12
@@ -61,17 +62,21 @@ def create_aln_score_matrix(seq_dict, tracking_dict):
     return aln_score_df
 
 def create_codon_usage_dict():
-    codon_usage_dict = OrderedDict()
-    with open('codon_usage_ecoli.csv','r') as f:
+    codon_usage_dict = {}
+    with open('codon_usage_ecoli.csv','r', encoding='utf-8') as f:
         a = f.read().splitlines()
+        #print(a)
         for i in a:
+            #print(i)
             b = i.split(',')
+            #print(b)
             if b != ['']:
                 if b[1] not in codon_usage_dict:
-                    codon_usage_dict[b[1]] = OrderedDict()
+                    codon_usage_dict[b[1]] = {}
                     codon_usage_dict[b[1]][float(b[2])] = b[0]
                 else:
                     codon_usage_dict[b[1]][float(b[2])] = b[0]
+    #print(codon_usage_dict)
     return codon_usage_dict
 
 
@@ -81,13 +86,17 @@ def back_translate(seq, codon_usage_dict):
         randNum = np.random.rand()
         check = 0
         cumFreq = 0
-        for codonFreq in codon_usage_dict[aa]:
-            cumFreq += codonFreq
-            if randNum < cumFreq and check != 1:
+        try:
+            for codonFreq in codon_usage_dict[aa]:
+                cumFreq += codonFreq
+                if randNum < cumFreq and check != 1:
+                    dna_seq += codon_usage_dict[aa][codonFreq]
+                    check = 1
+            if check == 0:
                 dna_seq += codon_usage_dict[aa][codonFreq]
-                check = 1
-        if check == 0:
-            dna_seq += codon_usage_dict[aa][codonFreq]
+        except KeyError:
+            print('yo!')
+            #continue
     return dna_seq
 
 def generate_opt_seq_df(seq_dict, codon_usage_dict, tracking_dict):
@@ -111,7 +120,7 @@ def get_weighted_bases(opt_seq_df, aln_score_df, tracking_dict, seq_dict):
         opt_nuc_seq = ''
         sumAlignScore = aln_score_df.iloc[i].sum(axis=0)
         weighted_seq_dict = OrderedDict()
-        originName = tracking_dict.keys()[tracking_dict.values().index(i)]
+        originName = list(tracking_dict.keys())[list(tracking_dict.values()).index(i)]
         seqLength = len(seq_dict[originName])*3
         nuc_keys = ['A','T','G','C']
         for ii in range(seqLength):
