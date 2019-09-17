@@ -144,6 +144,14 @@ def get_weighted_bases(opt_seq_df, aln_score_df, tracking_dict, seq_dict):
 
 seqDict = open_fasta(sys.argv[1])
 
+for ind,i in enumerate(seqDict):
+    if ind == 0:
+        dorn1_name = i
+    else:
+        print (dorn1_name, i)
+        codon_optimize(seqDict[dorn1_name], seqDict[i])
+
+
 trackingDict = create_tracking_dict(seqDict)
 
 alnScore_df = create_aln_score_matrix(seqDict, trackingDict)
