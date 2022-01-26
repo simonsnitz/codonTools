@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48869</BlastOutput_query-ID>
+  <BlastOutput_query-def>WP_000113609.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Salmonella]</BlastOutput_query-def>
+  <BlastOutput_query-len>193</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48869</Iteration_query-ID>
+  <Iteration_query-def>WP_000113609.1 MULTISPECIES: TetR/AcrR family transcriptional regulator [Salmonella]</Iteration_query-def>
+  <Iteration_query-len>193</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EGH0385439.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hvittingfoss]</Hit_def>
+  <Hit_accession>EGH0385439</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>3.42197e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAVAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQA+AQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_000113609.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Salmonella] &gt;ref|NP_459572.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gb|APW06950.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senftenberg str. ATCC 43845] &gt;gb|AZT08706.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 43:a:1,7] &gt;gb|AZT38199.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Karamoja] &gt;gb|AZT73297.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Waycross] &gt;gb|EAA0561736.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lexington] &gt;gb|EAA7301110.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. arizonae] &gt;gb|EAA7482921.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Irumu] &gt;gb|EAA7935367.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Teko] &gt;gb|EAA8090528.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Molade] &gt;gb|EAA9113734.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. CFSAN000648] &gt;gb|EAA9502479.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kingston] &gt;gb|EAA9716042.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Javiana str. CFSAN000904] &gt;gb|EAW2066573.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. diarizonae] &gt;gb|EBC9849417.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agama] &gt;gb|EBD0149062.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Coeln] &gt;gb|EBF8601704.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Larochelle] &gt;gb|EBF8611781.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nagoya] &gt;gb|EBF8629776.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nigeria] &gt;gb|EBF8660378.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul str. CFSAN000610] &gt;gb|EBH8021225.1| TetR/AcrR family transcriptional regulator [Salmonella bongori] &gt;gb|EBH8104914.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001743] &gt;gb|EBH8262757.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001113] &gt;gb|EBH8275436.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001106] &gt;gb|EBH8288426.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001759] &gt;gb|EBH8308429.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001760] &gt;gb|EBH8312129.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. CFSAN000643] &gt;gb|EBH8322128.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000541] &gt;gb|EBH8326613.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul str. CFSAN000615] &gt;gb|EBH8329366.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000536] &gt;gb|EBH8344411.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000542] &gt;gb|EBH8358305.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000537] &gt;gb|EBH8408490.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Orientalis] &gt;gb|EBH8412859.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. diarizonae serovar 53:z10:z] &gt;gb|EBH8417040.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nijmegen] &gt;gb|EBH8434799.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wandsworth] &gt;gb|EBH8624686.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tees] &gt;gb|EBH8664318.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Luke] &gt;gb|EBH8707228.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Newport str. CFSAN001734] &gt;gb|EBH8753494.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. houtenae serovar 44:z4,z23:-] &gt;gb|EBH8764236.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001097] &gt;gb|EBH8772104.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lagos] &gt;gb|EBH8778677.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001103] &gt;gb|EBH8782644.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001104] &gt;gb|EBH8796764.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001742] &gt;gb|EBH8801203.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001098] &gt;gb|EBH8814528.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001741] &gt;gb|EBH8819406.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001744] &gt;gb|EBH8837586.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000539] &gt;gb|EBH8860266.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001746] &gt;gb|EBH8877152.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. houtenae serovar 53:z4,z23:-] &gt;gb|EBH8897394.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,12:nonmotile] &gt;gb|EBH8902571.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7:b:-] &gt;gb|EBH8907402.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Santiago] &gt;gb|EBH9637702.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Okatie] &gt;gb|EBH9882912.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kisarawe] &gt;gb|EBL4741527.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Idikan] &gt;gb|EBP4035779.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. salamae] &gt;gb|EBQ5830414.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gatuni] &gt;gb|EBQ6003311.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Berkeley] &gt;gb|EBQ6115070.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Praha] &gt;gb|EBQ6247644.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fluntern] &gt;gb|EBQ8854814.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Durban] &gt;gb|EBQ8936936.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rideau] &gt;gb|EBQ9024959.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ajiobo] &gt;gb|EBQ9090805.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Richmond] &gt;gb|EBQ9150970.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Obogu] &gt;gb|EBQ9194966.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Roodepoort] &gt;gb|EBQ9343998.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Aba] &gt;gb|EBQ9444129.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Durham] &gt;gb|EBQ9464919.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wangata] &gt;gb|EBQ9477516.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kokomlemle] &gt;gb|EBQ9586278.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Penarth] &gt;gb|EBQ9763529.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bonn] &gt;gb|EBQ9781009.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Inganda] &gt;gb|EBR0103362.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Warnow] &gt;gb|EBR0145907.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Llandoff] &gt;gb|EBR0432555.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Vejle] &gt;gb|EBR0461428.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Abony] &gt;gb|EBR7944336.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Falkensee] &gt;gb|EBR8060774.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Soerenga] &gt;gb|EBR8243162.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Shubra] &gt;gb|EBR8477468.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nima] &gt;gb|EBR8487446.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hull] &gt;gb|EBR8616559.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kenya] &gt;gb|EBR8727212.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Matopeni] &gt;gb|EBR8741255.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Godesberg] &gt;gb|EBR8775395.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wien] &gt;gb|EBR8888279.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Galiema] &gt;gb|EBR8955210.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Pretoria] &gt;gb|EBR9058000.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Koketime] &gt;gb|EBR9509938.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ouagadougou] &gt;gb|EBR9834095.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Zanzibar] &gt;gb|EBR9924934.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Butantan] &gt;gb|EBS0340063.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ituri] &gt;gb|EBS0638659.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Umbilo] &gt;gb|EBS0794713.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Overschie] &gt;gb|EBS0850404.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Carno] &gt;gb|EBS0913881.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Arechavaleta] &gt;gb|EBS1536325.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Emek] &gt;gb|EBS1711823.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Vitkin] &gt;gb|EBS2231190.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Middlesbrough] &gt;gb|EBS2258718.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kirkee] &gt;gb|EBS2730929.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cotham] &gt;gb|EBS2905754.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Flottbek] &gt;gb|EBS3043725.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tchad] &gt;gb|EBS3118142.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kisangani] &gt;gb|EBS3368297.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Millesi] &gt;gb|EBS3637380.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Apapa] &gt;gb|EBS3864973.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kimberley] &gt;gb|EBS3908085.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tilene] &gt;gb|EBS4169865.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Elisabethville] &gt;gb|EBS4217833.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cannstatt] &gt;gb|EBS4437098.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Guinea] &gt;gb|EBS4509504.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Adamstua] &gt;gb|EBS4564223.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tanger] &gt;gb|EBS4906534.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kingabwa] &gt;gb|EBS5233922.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Onderstepoort] &gt;gb|EBS5264607.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Apeyeme] &gt;gb|EBS5436055.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Binza] &gt;gb|EBS5919438.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bispebjerg] &gt;gb|EBS6451281.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Offa] &gt;gb|EBU6682208.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kimuenza] &gt;gb|EBU6697094.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ridge] &gt;gb|EBU6936205.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Manchester] &gt;gb|EBU7022350.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hessarek] &gt;gb|EBU7030960.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Limete] &gt;gb|EBU7167275.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Stockholm] &gt;gb|EBU7639008.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Brevik] &gt;gb|EBU7765833.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rovaniemi] &gt;gb|EBU8205989.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cardoner] &gt;gb|EBU8371746.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Garoli] &gt;gb|EBU8430743.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ughelli] &gt;gb|EBU8531712.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Leoben] &gt;gb|EBU8676026.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Parkroyal] &gt;gb|EBU8748405.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ordonez] &gt;gb|EBU8872977.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Seattle] &gt;gb|EBU8904034.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Vuadens] &gt;gb|EBU9347118.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Angoda] &gt;gb|EBU9772433.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kumasi] &gt;gb|EBU9915089.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Weybridge] &gt;gb|EBU9952954.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tamberma] &gt;gb|EBV0143729.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bochum] &gt;gb|EBV0500116.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Teddington] &gt;gb|EBV0551894.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bron] &gt;gb|EBV0851574.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fulica] &gt;gb|EBV0855795.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Anecho] &gt;gb|EBV1217484.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Neunkirchen] &gt;gb|EBV1497704.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Moroto] &gt;gb|EBV1888151.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Coquilhatville] &gt;gb|EBV1907692.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kande] &gt;gb|EBV2357536.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ago] &gt;gb|EBV2735582.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Stourbridge] &gt;gb|EBV2941913.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Woodhull] &gt;gb|EBV4141306.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Benin] &gt;gb|EBV4331241.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Caracas] &gt;gb|EBV4371763.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Matadi] &gt;gb|EBV4613393.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Solt] &gt;gb|EBV4910910.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kalamu] &gt;gb|EBV5385164.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wentworth] &gt;gb|EBV5574684.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Vaertan] &gt;gb|EBV5773313.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Monophasic] &gt;gb|EBV5860183.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bere] &gt;gb|EBV8429949.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Anatum] &gt;gb|EBW2072868.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Krefeld] &gt;gb|EBW2266881.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hillingdon] &gt;gb|EBW2601437.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Poano] &gt;gb|EBW3082746.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gueuletapee] &gt;gb|EBW3212382.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Remiremont] &gt;gb|EBW3237370.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kuessel] &gt;gb|EBW3292583.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bijlmer] &gt;gb|EBW3734084.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lattenkamp] &gt;gb|EBW4306474.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Duisburg] &gt;gb|EBW4914588.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Vom] &gt;gb|EBW5058946.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Somone] &gt;gb|EBW5142262.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Barranquilla] &gt;gb|EBW5402224.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Southampton] &gt;gb|EBW5536244.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Pasing] &gt;gb|EBW7764152.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Louisiana] &gt;gb|EBW8391702.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Florida] &gt;gb|EBW8520200.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Haardt] &gt;gb|EBW8767613.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar California] &gt;gb|EBW9964377.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Malstatt] &gt;gb|EBX0573076.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Utah] &gt;gb|EBX0680879.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Luciana] &gt;gb|EBX1108332.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Salford] &gt;gb|EBX1125693.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Malaysia] &gt;gb|EBX1547296.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wa] &gt;gb|EBX2443887.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hissar] &gt;gb|EBX2838704.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Leeuwarden] &gt;gb|EBX3889368.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fann] &gt;gb|EBX4203105.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Oakland] &gt;gb|EBX4346257.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Halle] &gt;gb|EBX5007633.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sarajane] &gt;gb|EBX5685657.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kaolack] &gt;gb|EBX5832786.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Litchfield] &gt;gb|EBX6303671.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Enugu] &gt;gb|EBX6521166.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nchanga] &gt;gb|EBX7681041.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Jubilee] &gt;gb|EBX7707502.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Moero] &gt;gb|EBX8123483.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tyresoe] &gt;gb|EBY0106024.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bahati] &gt;gb|EBY0372287.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Toulon] &gt;gb|EBY0744375.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhisuis] &gt;gb|EBY1388892.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wagenia] &gt;gb|EBY1403435.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lome] &gt;gb|EBY1554425.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hofit] &gt;gb|EBY1783555.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Telhashomer] &gt;gb|EBY1890483.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Welikade] &gt;gb|EBY2147021.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kapemba] &gt;gb|EBY3007282.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ekpoui] &gt;gb|EBY3144195.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Morehead] &gt;gb|EBY3805595.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Adabraka] &gt;gb|EBY5148057.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gloucester] &gt;gb|EBY5451102.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Curacao] &gt;gb|EBY5611724.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Chicago] &gt;gb|EBY6724479.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ndolo] &gt;gb|EBY7390687.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Herston] &gt;gb|EBY9282294.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Denver] &gt;gb|EBZ0012895.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Suberu] &gt;gb|EBZ2860476.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kibi] &gt;gb|EBZ2911259.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Mesbit] &gt;gb|EBZ5135279.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Antsalova] &gt;gb|EBZ5773773.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Redlands] &gt;gb|EBZ5788400.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lawndale] &gt;gb|EBZ5860972.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Amersfoort] &gt;gb|EBZ6488657.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Dugbe] &gt;gb|EBZ6537567.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Mapo] &gt;gb|EBZ8636047.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Strathcona] &gt;gb|EBZ9041324.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Uzaramo] &gt;gb|ECA1248314.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Chailey] &gt;gb|ECA1327230.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Leatherhead] &gt;gb|ECA1971467.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Colorado] &gt;gb|ECA4031852.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Odozi] &gt;gb|ECA4736256.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lerum] &gt;gb|ECA5091215.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Menston] &gt;gb|ECA5115576.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Farmsen] &gt;gb|ECA5249647.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lomalinda] &gt;gb|ECA6748472.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Mokola] &gt;gb|ECA7539884.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Strasbourg] &gt;gb|ECA7916449.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Chichester] &gt;gb|ECA8635624.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bukavu] &gt;gb|ECA9743284.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Haduna] &gt;gb|ECA9858322.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gokul] &gt;gb|ECB0724930.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Noya] &gt;gb|ECB1041927.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Aschersleben] &gt;gb|ECB3524481.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Singapore] &gt;gb|ECB3741098.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Akanji] &gt;gb|ECB3806709.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fufu] &gt;gb|ECB6802472.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gambia] &gt;gb|ECB6814128.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cairina] &gt;gb|ECB7314825.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Treforest] &gt;gb|ECB7826992.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Jodhpur] &gt;gb|ECD1782372.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ramatgan] &gt;gb|ECD2670902.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Korlebu] &gt;gb|ECD2820881.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fanti] &gt;gb|ECD2880757.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Yoruba] &gt;gb|ECD3899206.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Haga] &gt;gb|ECD4161049.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tudu] &gt;gb|ECD4538816.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Szentes] &gt;gb|ECD4889010.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Champaign] &gt;gb|ECD5346212.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ilala] &gt;gb|ECD5356287.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Telaviv] &gt;gb|ECD5487913.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Brijbhumi] &gt;gb|ECD6354485.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Othmarschen] &gt;gb|ECD7653883.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Diguel] &gt;gb|ECE0318767.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. indica] &gt;gb|ECE7749547.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ngili] &gt;gb|ECE8797799.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Vinohrady] &gt;gb|ECE8957361.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Oudwijk] &gt;gb|ECF2409321.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bietri] &gt;gb|ECF2430132.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Beaudesert] &gt;gb|ECF2555469.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ahuza] &gt;gb|ECF3154848.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Volkmarsdorf] &gt;gb|ECF3416321.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Linton] &gt;gb|ECF3884503.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ank] &gt;gb|ECF7314967.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7:-1,5] &gt;gb|ECG1373608.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Stanley str. CFSAN000623] &gt;gb|ECG1376312.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama str. CFSAN000602] &gt;gb|ECG1381635.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Choleraesuis str. CFSAN000514] &gt;gb|ECG1394966.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama str. CFSAN000600] &gt;gb|ECG1400478.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama str. CFSAN000601] &gt;gb|ECG1401640.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenchen str. CFSAN000593] &gt;gb|ECG1407914.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby str. CFSAN000566] &gt;gb|ECG1430583.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul str. CFSAN000619] &gt;gb|ECG1439034.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenchen str. CFSAN000596] &gt;gb|ECG5871075.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Thompson str. CFSAN000625] &gt;gb|ECG5874321.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhi str. CFSAN000628] &gt;gb|ECG5880240.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul str. CFSAN000618] &gt;gb|ECG5955807.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Baguida] &gt;gb|ECG6088730.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Blukwa] &gt;gb|ECG6536117.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Frintrop] &gt;gb|ECG7021933.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tamale] &gt;gb|ECG7131918.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Uppsala] &gt;gb|ECK9402611.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi C str. CFSAN000603] &gt;gb|ECK9413366.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhisuis str. CFSAN000655] &gt;gb|ECK9418013.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi C str. CFSAN000604] &gt;gb|ECK9427004.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul str. CFSAN000612] &gt;gb|ECK9428710.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi C str. CFSAN000605] &gt;gb|ECK9451672.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Choleraesuis str. CFSAN000515] &gt;gb|ECK9460514.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sendai str. CFSAN000621] &gt;gb|ECK9466704.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Decatur str. CFSAN000563] &gt;gb|ECK9470957.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wien str. CFSAN000657] &gt;gb|ECK9475012.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Dublin str. CFSAN000518] &gt;gb|ECK9478400.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN000578] &gt;gb|ECK9483859.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhisuis str. CFSAN000654] &gt;gb|ECK9488715.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. CFSAN000653] &gt;gb|ECK9502854.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Infantis str. CFSAN000522] &gt;gb|ECK9506959.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN000577] &gt;gb|ECK9679510.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Washington] &gt;gb|ECQ7736157.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Brunei] &gt;gb|ECS5296865.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wedding] &gt;gb|ECS5883614.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar O rough] &gt;gb|ECS6007403.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saarbruecken] &gt;gb|ECS6440891.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:b:-] &gt;gb|ECS6712539.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby str. CFSAN000565] &gt;gb|ECS7317162.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Miami str. CFSAN000579] &gt;gb|ECS7738886.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. FSL_R8-4673] &gt;gb|ECS7764322.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000549] &gt;gb|ECS7780406.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000545] &gt;gb|ECT4060179.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kaapstad] &gt;gb|ECT4830539.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN001914] &gt;gb|ECT6465758.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senegal] &gt;gb|ECT6656393.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 3,10:e,h:-] &gt;gb|ECT8496150.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Pensacola] &gt;gb|ECT8908728.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wien str. CFSAN000656] &gt;gb|ECU5376034.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN001902] &gt;gb|ECU7660134.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bassadji] &gt;gb|ECU7992957.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Toucra] &gt;gb|ECU8756906.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Newport str. CFSAN000598] &gt;gb|ECU9434353.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000547] &gt;gb|ECV3630548.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 8,(20):i:-] &gt;gb|ECY3514502.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sekondi] &gt;gb|ECY3938986.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kallo] &gt;gb|ECY4193980.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Ball] &gt;gb|ECY4471883.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kastrup] &gt;gb|ECY4823855.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lindern] &gt;gb|ECY7796546.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Itami] &gt;gb|ECY8243531.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Remo] &gt;gb|EDA3732075.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Djugu] &gt;gb|EDA8443356.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bakau] &gt;gb|EDA9108636.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gdansk] &gt;gb|EDH7549355.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Loanda] &gt;gb|EDH7632370.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Togba] &gt;gb|EDH9165613.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fallowfield] &gt;gb|EDI0416968.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Winterthur] &gt;gb|EDI0455289.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Weston] &gt;gb|EDN4540126.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Buzu] &gt;gb|EDN4629470.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Virginia] &gt;gb|EDN4774110.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gafsa] &gt;gb|EDN4966764.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Clackamas] &gt;gb|EDN5021052.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000548] &gt;gb|EDO2236179.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tallahassee] &gt;gb|EDO2469161.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Amsterdam var. 15+,34+] &gt;gb|EDO8727755.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001763] &gt;gb|EDP2147519.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 9,12:-:1,5] &gt;gb|EDP9268316.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Newport str. CFSAN000901] &gt;gb|EDP9503224.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003485] &gt;gb|EDP9822141.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001107] &gt;gb|EDQ0118354.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i] &gt;gb|EDQ0844556.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001755] &gt;gb|EDQ2784558.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003483] &gt;gb|EDQ2860273.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN002070] &gt;gb|EDQ3205566.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Suelldorf] &gt;gb|EDQ3395734.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001750] &gt;gb|EDQ4863853.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. 644129] &gt;gb|EDQ4869259.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Aqua] &gt;gb|EDQ6230425.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tucson] &gt;gb|EDQ6363661.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi A] &gt;gb|EDQ7130687.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Fischerhuette] &gt;gb|EDR0057800.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. houtenae] &gt;gb|EDR0464595.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gallinarum] &gt;gb|EDR1224528.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gateshead] &gt;gb|EDR1407755.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. CFSAN000634] &gt;gb|EDR3139874.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Horsham] &gt;gb|EDR3150259.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Javiana str. CFSAN000908] &gt;gb|EDR3485712.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Midway] &gt;gb|EDR3559907.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Benue] &gt;gb|EDR6986607.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Eko] &gt;gb|EDR9796556.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Zongo] &gt;gb|EDS4138996.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Madelia] &gt;gb|EDS4247573.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003475] &gt;gb|EDS5305919.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003465] &gt;gb|EDS5540925.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Uganda] &gt;gb|EDS6131163.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Javiana str. CFSAN000906] &gt;gb|EDS7289079.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003461] &gt;gb|EDS7321506.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003463] &gt;gb|EDS7336764.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003473] &gt;gb|EDS7357371.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003471] &gt;gb|EDS8531201.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Infantis str. CFSAN000521] &gt;gb|EDT0644222.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 9,12:-:-] &gt;gb|EDT5203322.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Jangwani] &gt;gb|EDT6043018.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Newyork] &gt;gb|EDT8781664.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003460] &gt;gb|EDU0976202.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Anderlecht] &gt;gb|EDU1088286.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Coleypark] &gt;gb|EDU3034124.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Neudorf] &gt;gb|EDU3463377.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001753] &gt;gb|EDU4390631.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cuckmere] &gt;gb|EDU6026906.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Brazil] &gt;gb|EDU6088810.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Duesseldorf] &gt;gb|EDU6159075.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby str. CFSAN000564] &gt;gb|EDU6233932.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Newbrunswick] &gt;gb|EDU6363572.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Florian] &gt;gb|EDU6491684.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona str. SAR B1] &gt;gb|EDU7692343.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,12:b:-] &gt;gb|EDV0705221.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003486] &gt;gb|EDV0786536.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003464] &gt;gb|EDV0871809.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003474] &gt;gb|EDV0888616.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003484] &gt;gb|EDV2324602.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7:-:-] &gt;gb|EDV4732426.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003482] &gt;gb|EDV4935692.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003472] &gt;gb|EDV5196363.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003462] &gt;gb|EDV5915582.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001749] &gt;gb|EDV6868738.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Huettwilen] &gt;gb|EDV7672754.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001748] &gt;gb|EDV9601107.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003480] &gt;gb|EDV9753992.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003470] &gt;gb|EDW0102808.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. salamae serovar 6,7:z:1,5] &gt;gb|EDW2296785.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003466] &gt;gb|EDW2306264.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003488] &gt;gb|EDW2411281.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003478] &gt;gb|EDW2513058.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003468] &gt;gb|EDW2538219.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003476] &gt;gb|EDW5333961.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenchen str. CFSAN000587] &gt;gb|EDW5765550.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001751] &gt;gb|EDW8214552.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000535] &gt;gb|EDW8259247.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Canada] &gt;gb|EDW8348751.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,8:-:1,2] &gt;gb|EDW8795238.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nyanza] &gt;gb|EDW8933579.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001764] &gt;gb|EDW9078176.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001752] &gt;gb|EDX1682487.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Goelzau] &gt;gb|EDX4074203.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Maastricht] &gt;gb|EDX4106074.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000527] &gt;gb|EDX4534658.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Calabar] &gt;gb|EDX6481600.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Landwasser] &gt;gb|EDX8109107.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senftenberg str. CFSAN000622] &gt;gb|EDX8180057.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7:-:l,w] &gt;gb|EDX8421143.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Riverside] &gt;gb|EDX8913560.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001761] &gt;gb|EDZ9937803.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nessziona] &gt;gb|EEA5910108.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tafo] &gt;gb|EED6005471.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003487] &gt;gb|EED8425218.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Losangeles] &gt;gb|EED9560158.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Duval] &gt;gb|EEE8154594.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Badagry] &gt;gb|EEJ1484077.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sanjuan] &gt;gb|EEJ2554333.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Warragul] &gt;gb|EEJ3372379.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003479] &gt;gb|EEJ3434986.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003469] &gt;gb|EEJ3912555.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Waral] &gt;gb|EEJ6226027.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Southbank] &gt;gb|EEJ7130472.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Amoutive] &gt;gb|EEJ7156905.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003467] &gt;gb|EEJ7255311.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003477] &gt;gb|EEJ8813270.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. CFSAN003481] &gt;gb|EEJ9107529.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lexington var. 15+] &gt;gb|EFQ8975314.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kaneshie] &gt;gb|EFR5700665.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i-] &gt;gb|EFT0329463.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 8:i:-] &gt;gb|EGB5302532.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 16:b:-] &gt;gb|EGE4661214.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. N19965] &gt;gb|EGE4678556.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. FSL_R8-4916] &gt;gb|EGE4682883.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. FSL_R8-4922] &gt;gb|EGE4691573.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. FSL_R8-4843] &gt;gb|EGE4701099.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. FSL_R8-2868] &gt;gb|EGE5033160.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senftenberg str. CFSAN004033] &gt;gb|EGE5058267.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senftenberg str. CFSAN004031] &gt;gb|EGE5062795.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senftenberg str. CFSAN004032] &gt;gb|EGE5072666.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Senftenberg str. CFSAN004030] &gt;gb|EGF1374918.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:d:-] &gt;gb|EGF6395595.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rottnest] &gt;gb|EGF6410476.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,8:d:-] &gt;gb|EGG1343784.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar India] &gt;gb|EGI4900142.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Arkansas] &gt;gb|EGI4904504.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lanka] &gt;gb|EGI4913585.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Thomasville] &gt;gb|EGI5338011.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Perth] &gt;gb|EGI5504689.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 47:z4,z23:-] &gt;gb|EGI5761101.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,5:i:-] &gt;gb|EGI5833113.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Omderman] &gt;gb|EGI5882827.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Magwa] &gt;gb|EGI6009828.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bangkok] &gt;gb|EGI6153929.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Louga] &gt;gb|EGI6164727.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hermannswerder] &gt;gb|EGI6183192.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Chingola] &gt;gb|EGN7435260.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Liverpool] &gt;gb|EGN9184798.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:b:1,2] &gt;gb|EGS1132779.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000546] &gt;gb|EGS5044251.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 3,10[15][15,34]:e,h:-] &gt;gb|EGX4207040.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Buckeye] &gt;gb|EGY0734307.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7,[14]:r:-] &gt;gb|EGY7107220.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12,[27]:-:1,2] &gt;gb|EGZ3876434.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Elokate] &gt;gb|EGZ3897382.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Pisa] &gt;gb|EGZ3940650.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bruck] &gt;gb|EGZ4037011.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Lansing] &gt;gb|EGZ4606005.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Everleigh] &gt;gb|EHA3434993.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,8,20:-:1,5] &gt;gb|EHB7346395.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bracknell] &gt;gb|EHB8850508.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:-] &gt;gb|EHB8938873.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 3,[10],[15]:r:-] &gt;gb|EHB9170839.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,5,12,27:-] &gt;gb|EHB9232399.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7,14:k:-] &gt;gb|EHC1063990.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Chomedey] &gt;gb|EHC8524876.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 11:r:-] &gt;gb|EHC9838764.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4:b:-] &gt;gb|EHD0979616.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Eschberg] &gt;gb|EHD3237920.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Taksony] &gt;gb|EHF3058606.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 9,12-:1,5] &gt;gb|EHF3501501.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,8,20:d-] &gt;gb|EHF4184712.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar [5],12,[27]:d:-] &gt;gb|EHF9034789.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 1,3,19:g,m,t:-] &gt;gb|EHG3500799.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:z10:e,n,z15] &gt;gb|EHG4738004.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 13,23:i:-] &gt;gb|EHG6516372.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 44:z10:1,7] &gt;gb|EHG7024733.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:i:1,2] &gt;gb|EHI8596683.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 51:z:1,5] &gt;gb|EHL4563910.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12,[27]:d:-] &gt;gb|EHM1138124.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:r:1,5] &gt;gb|EHM1795838.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:r:-] &gt;gb|EHN39255.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Montevideo str. CT_02035278] &gt;gb|EHN5694851.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Friedenau] &gt;gb|EHP4798704.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sangera] &gt;gb|EHS2976571.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 16:l,v:- 2] &gt;gb|EHW1127449.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kinondoni] &gt;gb|EHX6048962.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Zega] &gt;gb|EHY4807479.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rough:g,s,t:-] &gt;gb|EIB5177575.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Maracaibo] &gt;gb|EIB9777427.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kua] &gt;gb|EIJ6145220.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4:a:-] &gt;gb|ELO82323.1| putative tetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Enteritidis str. SARB17] &gt;gb|ERF96814.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. SARA33] &gt;gb|ERG02423.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenchen str. RKS4129] &gt;gb|ESB84983.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Agona str. SA-4] &gt;gb|ESC26356.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Agona str. 0322] &gt;gb|ESC36938.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Agona str. SA-1] &gt;gb|ESE68910.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Typhimurium str. ST4581] &gt;gb|ESE94268.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Virchow str. ATCC 51955] &gt;gb|ESE95062.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Paratyphi B str. SARA56] &gt;gb|ESF32764.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Tennessee str. TXSC_TXSC08-21] &gt;gb|ESF63105.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Paratyphi B str. SARA42] &gt;gb|ESG29542.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Meleagridis str. 0047] &gt;gb|ESG63571.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Muenchen str. baa1594] &gt;gb|ESG81903.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Kentucky str. ATCC 9263] &gt;gb|ESH30802.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Gaminara str. ATCC BAA-711] &gt;gb|ESH78049.1| putative regulatory protein [Salmonella enterica subsp. enterica serovar Bareilly str. 2780] &gt;gb|ESO28078.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Agona str. 400095 18] &gt;gb|ESP72447.1| HTH-type transcriptional repressor Bm3R1 [Salmonella enterica subsp. enterica serovar Saintpaul str. S-70] &gt;gb|ESP78792.1| HTH-type transcriptional repressor Bm3R1 [Salmonella enterica subsp. enterica serovar Oranienburg str. S-76] &gt;gb|ETC75445.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cerro str. 5569] &gt;gb|EYE80130.1| putative tetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. N1514] &gt;gb|EYH82634.1| putative tetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. N4403] &gt;gb|EYH93026.1| putative tetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. N189] &gt;gb|EYI22846.1| putative tetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. N4541] &gt;gb|EYI33921.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Heidelberg str. 41576] &gt;gb|EYI55105.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Heidelberg str. 24393] &gt;gb|KCU93517.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Cerro str. FSL R8-0235] &gt;gb|KDQ96651.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Montevideo str. FVM_628064] &gt;gb|KDR04396.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000226] &gt;gb|KDS03627.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. RI-11-014316] &gt;gb|KDU69532.1| transcriptional regulator, TetR family protein [Salmonella enterica subsp. enterica serovar Heidelberg str. RI-11-013312] &gt;gb|KFS87219.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000233] &gt;gb|KFS89365.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000232] &gt;gb|KFS89493.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000230] &gt;gb|KGE35977.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000229] &gt;gb|KJT32362.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 622737-11] &gt;gb|KJT43892.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 579083-19] &gt;gb|KJT46914.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. RI-11-013374] &gt;gb|KJT56098.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. RI-11-014588] &gt;gb|KJT58214.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. RI-11-013343] &gt;gb|KJT59186.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 622737-12] &gt;gb|KJT73338.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 622737-14] &gt;gb|KJT81761.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 75-3547] &gt;gb|KJT88136.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 76-0300] &gt;gb|KJT94551.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 77-2823] &gt;gb|KJU00275.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 77-1831] &gt;gb|KJU02566.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg str. 79-0480] &gt;gb|KSB40787.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Johannesburg str. SA20025782] &gt;gb|MBA6227576.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Houston] &gt;gb|MBE7603696.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4:-:1,2] &gt;gb|MBE8631298.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bahrenfeld] &gt;gb|MBJ5162815.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kisii] &gt;gb|MBJ5311099.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Dabou] &gt;gb|MID38076.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenchen str. CFSAN000585] &gt;gb|MID41175.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000540] &gt;gb|MID46581.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001740] &gt;gb|MID51615.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenchen str. CFSAN000591] &gt;gb|MID55811.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Paratyphi B str. CFSAN000532] &gt;gb|MID59388.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN001117] &gt;gb|MIE06571.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Braenderup str. CFSAN001745] &gt;gb|MZI60608.1| TetR family transcriptional regulator [Salmonella sp. XN2] &gt;gb|NAV08214.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f94] &gt;gb|NAV10927.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f78] &gt;gb|NAV21130.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-h16] &gt;gb|NAV35098.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f75] &gt;gb|NAV37543.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f87] &gt;gb|NAV42870.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f82] &gt;gb|NAV47854.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f79] &gt;gb|NAV53800.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f77] &gt;gb|NAV59453.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f72] &gt;gb|NAV63990.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f54] &gt;gb|NAV66006.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f50] &gt;gb|NAV70546.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f60] &gt;gb|NAV74047.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f95] &gt;gb|NAV80081.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-f100] &gt;gb|NAV84004.1| TetR/AcrR family transcriptional regulator [Salmonella sp. zj-h17] &gt;gb|NAV89658.1| TetR/AcrR family transcriptional regulator [Salmonella sp. gx-f7] &gt;gb|NAV94927.1| TetR/AcrR family transcriptional regulator [Salmonella sp. hn-h2] &gt;gb|NAV99511.1| TetR/AcrR family transcriptional regulator [Salmonella sp. hn-h4] &gt;gb|NAW02980.1| TetR/AcrR family transcriptional regulator [Salmonella sp. gx-f8] &gt;gb|NAW09103.1| TetR/AcrR family transcriptional regulator [Salmonella sp. gx-h1] &gt;gb|NAW17318.1| TetR/AcrR family transcriptional regulator [Salmonella sp. hn-f5] &gt;gb|NAW19323.1| TetR/AcrR family transcriptional regulator [Salmonella sp. gx-f9] &gt;gb|NAW26721.1| TetR/AcrR family transcriptional regulator [Salmonella sp. sc-h42] &gt;gb|NAW31113.1| TetR/AcrR family transcriptional regulator [Salmonella sp. sc-h43] &gt;gb|NAW39768.1| TetR/AcrR family transcriptional regulator [Salmonella sp. fj-h1] &gt;gb|NAW43402.1| TetR/AcrR family transcriptional regulator [Salmonella sp. gx-f4] &gt;gb|NAW47401.1| TetR/AcrR family transcriptional regulator [Salmonella sp. gx-f5] &gt;gb|OAM58096.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona str. 400095 22] &gt;gb|OAS45688.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona str. 400096 16] &gt;gb|QUZ10236.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Newport str. WA_14882] &gt;gb|QUZ26605.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul str. SARA26] &gt;gb|QVB05011.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Muenster str. CFSAN004344] &gt;gb|QVS58368.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. salamae serovar 6,7:m,t:-] &gt;gb|QVX71902.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Abortusequi] &gt;gb|RKD03720.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona str. 400100 6-5] &gt;gb|RKD11443.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona str. 400100 5-3] &gt;gb|RKD16760.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona str. 400095 19] &gt;gb|RXY93878.1| TetR/AcrR family transcriptional regulator [Salmonella sp. 3DZ2-4SM] &gt;dbj|BAJ35585.1| TetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. T000240] &gt;dbj|BAP06347.1| putative tetR-family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium str. L-3553] &gt;tpg|HAA0711297.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Decatur] &gt;tpg|HAA1152865.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Pullorum] &gt;tpg|HAC8251145.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. indica serovar Marseille] &gt;tpg|HAE0157365.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;tpg|HAE2649556.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 6,7,14:g,m[p],s:[1,2,7]] &gt;tpg|HAE3280701.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kouka] &gt;tpg|HAE8459408.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sendai] &gt;tpg|HAM3379445.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium var. monophasic 4,[5],12:i:-] &gt;tpg|HAU6709629.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Casablanca] &gt;tpg|HAU6778106.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Luckenwalde] &gt;tpg|HAU6779197.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tado] &gt;tpg|HAU6787864.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Taiping] &gt;tpg|HBJ6127111.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar -:r:1,5] &gt;tpg|HBJ6181918.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Anfo] &gt;tpg|HBJ6331712.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Teltow] &gt;tpg|HBJ6902691.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Wyldegreen] &gt;tpg|HBL9973509.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Marshall] &gt;tpg|HBL9987218.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Sternschanze] &gt;tpg|HBL9992002.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hidalgo] &gt;tpg|HBL9996306.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kodjovi] &gt;tpg|HBM0001842.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Gozo] &gt;tpg|HBM0006782.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Dahra] &gt;tpg|HBM0083605.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Brikama] &gt;tpg|HBM0089409.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Tilburg] &gt;tpg|HBM0095243.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Blitta]</Hit_def>
+  <Hit_accession>WP_000113609</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.053</Hsp_bit-score>
+      <Hsp_score>1024</Hsp_score>
+      <Hsp_evalue>3.42197e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_080224157.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EAA5486030.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EBS1108855.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Eingedi] &gt;gb|EBV2193800.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Afula] &gt;gb|ECD5049613.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Everleigh] &gt;gb|ECU9009079.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Daytona]</Hit_def>
+  <Hit_accession>WP_080224157</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>5.79491e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKITKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEK+TKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EDT7238516.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EHJ1768899.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|MIG50798.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>EDT7238516</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>5.79491e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDICQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQD+CQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EEA7622795.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EEA7622795</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIAMGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIA+GFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ECH0014128.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGL0661445.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>ECH0014128</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFESMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFE+MWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EBX2556478.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nima] &gt;gb|ECT9453504.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Oskarshamn] &gt;gb|ECZ6075081.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAB1606291.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Havana] &gt;gb|EDR5681179.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Nima]</Hit_def>
+  <Hit_accession>EBX2556478</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFSARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDF+ARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ECZ3980115.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>ECZ3980115</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTSVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAAST+VIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|ECG5861013.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Oranienburg] &gt;gb|EEH5172951.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EFQ5900414.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGF6144470.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EHE6019005.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>ECG5861013</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLAMAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLA+AETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_053463590.1|</Hit_id>
+  <Hit_def>MULTISPECIES: TetR/AcrR family transcriptional regulator [Salmonella] &gt;gb|EAN8122333.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBO2114889.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Infantis] &gt;gb|EHY1090953.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EAP8051016.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EAR4681030.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>WP_053463590</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNSGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARN+GVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|EHA4411327.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg]</Hit_def>
+  <Hit_accession>EHA4411327</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTMFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGT+FRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>tpg|HAC9188024.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAC9531797.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAC9537600.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAC9603966.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAC9639037.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>HAC9188024</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALSETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLAL+ETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EGP1241324.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EHM5866952.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAG3146064.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAG5565624.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAK0557546.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EGP1241324</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVSEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGV+EGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ECE6325870.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>ECE6325870</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQSIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQ+IAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|EGO0059476.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGP6853862.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGP8172002.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EGO0059476</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>5.9235e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRSLTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWR+LTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|ECT5250352.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama] &gt;gb|ECX3494359.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama] &gt;gb|ECX6032549.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama] &gt;gb|EGU5380482.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGX1719576.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Panama]</Hit_def>
+  <Hit_accession>ECT5250352</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.12176e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIAVGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIA+GFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EGI9548417.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EHJ7231145.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EHN4040816.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Infantis]</Hit_def>
+  <Hit_accession>EGI9548417</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.12176e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGVNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWG+NHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ECF7523491.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDB6542833.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby]</Hit_def>
+  <Hit_accession>ECF7523491</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.25761e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSILMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRS+LMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_052942930.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EAA7979171.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EBV6285882.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hadar] &gt;gb|ECI2303671.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Enteritidis] &gt;gb|EDB8400365.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby] &gt;gb|EDS5645038.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul] &gt;gb|EED9043268.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Javiana]</Hit_def>
+  <Hit_accession>WP_052942930</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.25761e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAISEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLA+SEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|EAM4514059.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBF3576787.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|ECL9297200.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EAV3050571.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBG4859083.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAM4514059</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.25761e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGIAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAG+AEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|ECI2255490.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Kentucky]</Hit_def>
+  <Hit_accession>ECI2255490</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.46706e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLYLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGL+LALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>tpg|HBI4075637.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;tpg|HBI4274419.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;tpg|HBI4284738.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;tpg|HBI4319307.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg]</Hit_def>
+  <Hit_accession>HBI4075637</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>6.46706e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYYATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRY+ATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|EAP1080595.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|ECJ9210033.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAP1080595</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.282</Hsp_bit-score>
+      <Hsp_score>1022</Hsp_score>
+      <Hsp_evalue>8.23302e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRALRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRA+RQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|EFO9832218.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EFT2263684.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EFT9537573.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>EFO9832218</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>8.50858e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYMALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEY+ALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_023262025.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EAS7635778.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBJ6123023.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBO4026045.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDF7611253.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EDJ5572359.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>WP_023262025</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREKQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTRE+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EAW2123099.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|ECQ2931286.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAW2123099</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDKYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSD+YRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|MBS2582282.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;tpg|HAD9035358.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>MBS2582282</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAKTTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALA+TTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|EBI4714256.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDD1386095.1| TetR family transcriptional regulator [Salmonella enterica] &gt;gb|EDM1266543.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Bareilly] &gt;gb|EGF7003347.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EBI4714256</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPKLRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFP+LRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|EBL9544772.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDB2664264.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EII9863912.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EIR7164427.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAE6219877.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>EBL9544772</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSKKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVS+KLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|EAO4426712.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EAO5884274.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|ECH4854295.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|ECY2789732.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGB6175329.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAO4426712</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTRKEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTR+EQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|EIK5812553.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EIK5812553</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>9.49548e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKKTEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTK+TEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|EAN9548963.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBH7809600.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAN9548963</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.01418e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRTITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDR+ITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|ECB5954209.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Virchow] &gt;gb|ECC6175042.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDA9887966.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EGK7270687.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Stourbridge]</Hit_def>
+  <Hit_accession>ECB5954209</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.01418e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATQDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFAT+DELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|EBF0073854.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EBF0073854</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.01418e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKTEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPK+EDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|ECJ6409627.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>ECJ6409627</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.01418e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYITWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYI+WGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|EBM9944856.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Give] &gt;gb|ECM4407757.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Give] &gt;gb|EED3921885.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Give] &gt;gb|EED4547065.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Give]</Hit_def>
+  <Hit_accession>EBM9944856</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.01418e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMTDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFM+DEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|ECH9050911.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica]</Hit_def>
+  <Hit_accession>ECH9050911</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRVDDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQR DDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|EDX6408595.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Oranienburg] &gt;gb|EEK8074754.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EDX6408595</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFVTKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYF TKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|ECD5818394.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Carrau] &gt;gb|EFO5840679.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGD1377349.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;emb|SUE84901.1| tetR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>ECD5818394</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIVLGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYI LGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|EBN3455014.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|ECT9045493.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Oranienburg] &gt;gb|ECU0278283.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Saintpaul] &gt;gb|EDC2288107.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDX4008547.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EHA8496423.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Derby]</Hit_def>
+  <Hit_accession>EBN3455014</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVVEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGV EGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|EAP7885874.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EDC8627968.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Infantis] &gt;gb|EEL7047986.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium] &gt;gb|EBA8529435.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EEH2228442.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAP7885874</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIVQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAI QSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|ECD0768666.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Papuana]</Hit_def>
+  <Hit_accession>ECD0768666</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPVRAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDP RAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|EDZ7599203.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EEG6280377.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EEG6285309.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGU9420239.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EGY4528129.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EDZ7599203</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRVFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYR FGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_106661862.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBH9669423.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar 4,[5],12:i:-] &gt;gb|EBU8119623.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Hadar] &gt;gb|EBU8246533.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Cubana] &gt;gb|ECG6458795.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Heidelberg] &gt;gb|EEN2102887.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Rissen] &gt;gb|EHT2692892.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Agona] &gt;gb|MBJ5535256.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>WP_106661862</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEVATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLE ATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|MBF4522675.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>MBF4522675</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAVSTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIA STAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|EBF5090721.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;gb|EBI4104038.1| TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EBF5090721</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQVIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQ IAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|EAT6850137.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EAT6850137</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.02537e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIVASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGI ASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|EHE8391695.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica]</Hit_def>
+  <Hit_accession>EHE8391695</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.03668e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMLTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKM+TRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|EED9435057.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica] &gt;gb|EIC8000869.1| TetR/AcrR family transcriptional regulator [Salmonella enterica] &gt;tpg|HAC6652665.1| TetR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Abortusovis] &gt;tpg|HAE8718500.1| TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Abortusovis]</Hit_def>
+  <Hit_accession>EED9435057</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.04812e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNNYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWN+YISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>tpg|HBJ7373157.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Salmonella enterica subsp. enterica serovar Typhimurium]</Hit_def>
+  <Hit_accession>HBJ7373157</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>1.04812e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MARPKSEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_qseq>
+      <Hsp_hseq>MARPKNEDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_hseq>
+      <Hsp_midline>MARPK+EDKKQALLEAATQAIAQSGIAASTAVIARNAGVAEGTLFRYFATKDELINTLYLHLKQDLCQSMIMELDRSITDAKMMTRFIWNSYISWGLNHPARHRAIRQLAVSEKLTKETEQRADDMFPELRDLCHRSVLMVFMSDEYRAFGDGLFLALAETTMDFAARDPARAGEYIALGFEAMWRALTREEQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>454569706</Statistics_db-num>
+      <Statistics_db-len>1017487884</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
