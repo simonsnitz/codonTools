@@ -3,14 +3,16 @@ from Bio.Blast.NCBIXML import read, parse
 
 import requests
 import time
+import pickle
 from pathlib import Path
 
 p = Path("./cache")
 blast_cache = p / "blast_tmp.xml"
+dict_cache = p / "homologs_dict_raw.pkl"
 
 
-def acc2sequence(accID):
-    URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi/?db=protein&id="+accID+"&rettype=fasta"
+def acc2sequence(acc):
+    URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi/?db=protein&id="+acc+"&rettype=fasta"
     response = requests.get(URL)
     if response.ok:
         return response.text
@@ -22,11 +24,11 @@ def acc2sequence(accID):
 
 def blast(sequence):
     
-    with open('cache/blast_tmp.xml', mode="w+") as f:
+    with open('cache/blast_tmp2.xml', mode="w+") as f:
         print('entering blast function')
 
         blastStart = time.time()
-        blast_results = qblast("blastp", "nr", sequence)  
+        blast_results = qblast("blastp", "nr", sequence, hitlist_size = 5000)  
         blastEnd = time.time()
 
         print('finished blast. Took '+str(blastEnd - blastStart)+" seconds.")
@@ -34,7 +36,10 @@ def blast(sequence):
         print('cached blast result')   
 
 
-def check_blast():
+def create_blast_dict():
+
+        #seq = acc2sequence(acc)
+
         with open(blast_cache, mode="r") as f:
 
             records = [record for record in parse(f)]
@@ -48,7 +53,9 @@ def check_blast():
                         for hsp in alignment.hsps
                 ]
                                
-            print(homologs)
+            with open(dict_cache, mode="wb") as f:
+                pickle.dump(homologs, f)
+                print("cached the homologs dictionary")
 
 
 if __name__ == "__main__":
@@ -59,4 +66,4 @@ if __name__ == "__main__":
 
     #blast(seq)
 
-    check_blast()
+    create_blast_dict()
